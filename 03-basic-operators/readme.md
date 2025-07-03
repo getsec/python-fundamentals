@@ -47,6 +47,18 @@ print("--- Arithmetic Operators ---")
 remaining_cash = cash_on_hand - investment
 print(f"Remaining Cash: {remaining_cash}") # The f"" is an f-string, an easy way to embed variables in text.
 
+# You can print variables a lot of different ways
+print("remaining cash:", remaining_cash)
+
+# However, you cannot always join certain variables and print them
+# this will raise an error
+print("remaining cash:" + remaining_cash)
+
+# It will raise the follwing error
+#  TypeError: can only concatenate str (not "int") to str
+# this is because you told python to ADD a <string> to an <integer> - this isnt possible.
+
+
 portfolio_value = 1200000
 annual_return_rate = 0.075
 annual_gain = portfolio_value * annual_return_rate
