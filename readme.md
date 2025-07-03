@@ -15,4 +15,6 @@ Welcome to this step-by-step introduction to Python, tailored for individuals wi
 9.  [File Handling](09-file-handling/readme.md)
 10. [Introduction to Libraries and Modules](10-introduction-to-libraries-and-modules/readme.md)
 11. [Working with Excel](11-working-with-excel/readme.md)
+
+----------------------
 This set of folders provides a solid, step-by-step introduction to Python for someone new to programming, with context and analogies that should resonate with their background in SQL. The curriculum logically progresses toward the ultimate goal of data analysis.
